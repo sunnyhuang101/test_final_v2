@@ -1,0 +1,27 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/tingController.cs">
+    <Files>
+      <File FileName="Assets/CarController.cs" Line="111" Column="3" />
+      <File FileName="Assets/eightController.cs" Line="15" Column="64" />
+      <File FileName="Assets/bird_0_controller.cs" Line="1" Column="1" />
+      <File FileName="Assets/taxi_controller.cs" Line="33" Column="35" />
+      <File FileName="Assets/EndGame.cs" Line="1" Column="1" />
+      <File FileName="Assets/bodyController.cs" Line="1" Column="1" />
+      <File FileName="Assets/backpackController.cs" Line="30" Column="8" />
+      <File FileName="Assets/Goal.cs" Line="1" Column="1" />
+      <File FileName="Assets/FollowCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/CameraController.cs" Line="12" Column="3" />
+      <File FileName="Assets/vivian/Assets/changeScene.cs" Line="1" Column="1" />
+      <File FileName="Assets/mamaController.cs" Line="9" Column="3" />
+      <File FileName="Assets/grandmaController.cs" Line="9" Column="3" />
+      <File FileName="Assets/tingController.cs" Line="129" Column="72" />
+      <File FileName="Assets/TingtingController.cs" Line="16" Column="2" />
+      <File FileName="Assets/appleController.cs" Line="30" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
