@@ -26,7 +26,7 @@ public class elevatecontroll : MonoBehaviour {
                 component_rigid.velocity = new Vector2((float)(90.78- 92.17)/5, (float)(-1.27 + 2.3)/5);
             }
             if (elev_trans.position.x >= component.position.x )
-                component.position= new Vector3((float)93.46, (float)-3.02);
+                component.position= new Vector3((float)93.19, (float)-3.31);
         }
         else
         {

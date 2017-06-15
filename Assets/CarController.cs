@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class CarController : MonoBehaviour {
 
-	public float speed = 1500f;
+	public static float speed = 1500f;
 	public float rotationSpeed = 15f;
 
 	public WheelJoint2D backWheel;
@@ -36,7 +36,7 @@ public class CarController : MonoBehaviour {
 	JointMotor2D motorBack;
 
 
-	public float speedF;
+	public static float speedF =1000f;
 	public float speedB;
 
 
@@ -62,6 +62,7 @@ public class CarController : MonoBehaviour {
 		backpack_list = new List<backpackController> ();
 		throw_sound = GameObject.FindGameObjectWithTag ("throwing").GetComponent<AudioSource> ();
 		jump_sound = GameObject.FindGameObjectWithTag ("jumping").GetComponent<AudioSource> ();
+		speedF = 1000f;
 	}
 
 	void Update ()

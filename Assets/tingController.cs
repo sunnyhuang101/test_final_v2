@@ -56,6 +56,7 @@ public class tingController : MonoBehaviour {
 	public GameObject mama;
 	public GameObject taxi;
 	public GameObject taxi2;
+	public GameObject changeScene;
 
 	public GameObject car;
 	void Start()
@@ -132,7 +133,7 @@ public class tingController : MonoBehaviour {
 			throw_sound.Play ();
 		}
 
-		if (Vector2.Distance (this.gameObject.transform.position, grandma.transform.position) <= 150) {
+		if (Vector2.Distance (this.gameObject.transform.position, grandma.transform.position) <= 20) {
 			grandma.SetActive (true);
 		}
 
@@ -146,6 +147,14 @@ public class tingController : MonoBehaviour {
 
 		if (Vector2.Distance (this.gameObject.transform.position, taxi2.transform.position) <= 150) {
 			taxi2.SetActive (true);
+		}
+
+
+
+
+		if (Vector2.Distance (this.gameObject.transform.position, changeScene.transform.position) <= 500) {
+			Debug.Log ("enter");
+			Application.LoadLevel("levelFinish");
 		}
 	}
 

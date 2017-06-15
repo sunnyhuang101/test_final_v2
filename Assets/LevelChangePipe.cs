@@ -5,7 +5,9 @@ using UnityEngine;
 public class LevelChangePipe : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Application.LoadLevel("2");
+		if (collision.tag == "Player") {
+			Application.LoadLevel ("2");
+		}
     }
     // Use this for initialization
     void Start () {

@@ -5,7 +5,7 @@ using UnityEngine;
 public class LevelChange2 : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Application.LoadLevel("carscene2");
+        Application.LoadLevel("levelFinish");
     }
     // Use this for initialization
     void Start () {

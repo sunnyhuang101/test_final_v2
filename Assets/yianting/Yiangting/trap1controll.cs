@@ -16,7 +16,7 @@ public class trap1controll : MonoBehaviour {
 	void Update () {
         float dist;
         dist = carPos.position.y - trap.position.y;
-        if(dist<5 && carPos.position.x >= trap.position.x-2.5 && carPos.position.x <= trap.position.x + 2.5)
+        if(dist<10 && carPos.position.x >= trap.position.x-5 && carPos.position.x <= trap.position.x + 5)
             car.AddForce(new Vector2(0, magicnum / dist ));
     }
 }
