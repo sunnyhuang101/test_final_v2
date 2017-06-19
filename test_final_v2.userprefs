@@ -1,27 +1,34 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LevelChangePipe.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/appleController.cs">
     <Files>
+      <File FileName="Assets/EndGame.cs" Line="1" Column="1" />
+      <File FileName="Assets/EndGamePyra.cs" Line="1" Column="1" />
       <File FileName="Assets/FollowCamera.cs" Line="1" Column="1" />
       <File FileName="Assets/bird_0_controller.cs" Line="1" Column="1" />
       <File FileName="Assets/treasureController.cs" Line="1" Column="1" />
-      <File FileName="Assets/AccelerateControl.cs" Line="18" Column="4" />
-      <File FileName="Assets/CarController.cs" Line="138" Column="3" />
+      <File FileName="Assets/AccelerateControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/CarController.cs" Line="68" Column="16" />
       <File FileName="Assets/taxi_controller.cs" Line="1" Column="1" />
-      <File FileName="Assets/EndGame.cs" Line="1" Column="1" />
       <File FileName="Assets/vivian2/stopmenu.cs" Line="1" Column="1" />
       <File FileName="Assets/vivian2/countdown.cs" Line="1" Column="1" />
       <File FileName="Assets/LevelChange2.cs" Line="1" Column="1" />
       <File FileName="Assets/eightController.cs" Line="1" Column="1" />
       <File FileName="Assets/grandmaController.cs" Line="1" Column="1" />
-      <File FileName="Assets/tingController.cs" Line="157" Column="29" />
+      <File FileName="Assets/tingController.cs" Line="1" Column="1" />
       <File FileName="Assets/Goal.cs" Line="1" Column="1" />
-      <File FileName="Assets/EndGamePyra.cs" Line="1" Column="1" />
       <File FileName="Assets/endGame1.cs" Line="1" Column="1" />
       <File FileName="Assets/ChangeScene2.cs" Line="1" Column="1" />
       <File FileName="Assets/vivian/Assets/carmove.cs" Line="1" Column="1" />
       <File FileName="Assets/appleController.cs" Line="1" Column="1" />
-      <File FileName="Assets/LevelChangePipe.cs" Line="3" Column="19" />
+      <File FileName="Assets/LevelChangePipe.cs" Line="11" Column="6" />
+      <File FileName="Assets/elevatecontroll.cs" Line="1" Column="1" />
+      <File FileName="Assets/CameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets/moneyController.cs" Line="26" Column="13" />
+      <File FileName="Assets/TingtingController.cs" Line="1" Column="1" />
+      <File FileName="Assets/backpackController.cs" Line="1" Column="1" />
+      <File FileName="Assets/dadController.cs" Line="1" Column="1" />
+      <File FileName="Assets/mamaController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

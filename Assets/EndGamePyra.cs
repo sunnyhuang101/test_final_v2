@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EndGamePyra : MonoBehaviour {
-
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.tag == "Player") {
+			Application.LoadLevel ("gameover");
+		}
+	}
 	// Use this for initialization
 	void Start () {
 		

@@ -19,11 +19,11 @@ public class elevatecontroll : MonoBehaviour {
         {
             if(elev_trans.position.y<= component.position.y)
             {
-                component_rigid.velocity = new Vector2((float)(90.78 - 92.17) / 5, 0);
+                component_rigid.velocity = new Vector2((float)(90.78 - 92.17) / 2, 0);
             }
             else
             {
-                component_rigid.velocity = new Vector2((float)(90.78- 92.17)/5, (float)(-1.27 + 2.3)/5);
+                component_rigid.velocity = new Vector2((float)(90.78- 92.17)/2, (float)(-1.27 + 2.3)/2);
             }
             if (elev_trans.position.x >= component.position.x )
                 component.position= new Vector3((float)93.19, (float)-3.31);
@@ -32,11 +32,11 @@ public class elevatecontroll : MonoBehaviour {
         {
             if (elev_trans.position.y <= component.position.y)
             {
-                component_rigid.velocity = new Vector2((float)(-90.78 + 92.17) / 5, 0);
+                component_rigid.velocity = new Vector2((float)(-90.78 + 92.17) / 2, 0);
             }
             else
             {
-                component_rigid.velocity = new Vector2((float)(27.76 - 26.37) / 5, (float)(0.31 + 0.71) / 5);
+                component_rigid.velocity = new Vector2((float)(27.76 - 26.37) / 2, (float)(0.31 + 0.71) / 2);
             }
             if (elev_trans.position.x <= component.position.x)
                 component.position = new Vector3((float)(108.26), (float)-2.95);
